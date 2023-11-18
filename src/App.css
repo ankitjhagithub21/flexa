@@ -76,7 +76,7 @@ p, a,h2,button{
     height: 40%;
     gap: 20px;
     transition: 0.5s;
-    transform: translateY(-120%);
+    transform: translateY(-130%);
     z-index: 999;
   }
   #nav.active {
