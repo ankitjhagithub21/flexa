@@ -20,7 +20,7 @@ const BlogCompo = ({url,date,title,desc}) => {
                    {desc}
                   </p>
                   <div className="flex items-center flex-wrap ">
-                    <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href='https://codewithankit.netlify.app'>
+                    <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href='#'>
                       Learn More
                       <svg
                         className="w-4 h-4 ml-2"
