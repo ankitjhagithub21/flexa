@@ -4,8 +4,9 @@ import links from '../api/NavbarApi';
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
-
+  
   const toggleMenu = () => {
+    
     setActive(!active);
   };
 
@@ -16,7 +17,7 @@ const Navbar = () => {
           <img src="/logo.png" alt="logo" width={30}/>
           <span className="ml-3 text-2xl text-green-500">Flexa</span>
         </a>
-        <nav className={`md:ml-auto flex flex-wrap items-center text-base justify-center ${active ? 'active' : ''}`} id='nav'>
+        <nav className={`md:ml-auto flex  items-center text-base justify-center ${active ? 'active' : ''}`} id='nav'>
           {
             links.map((link) => (
               <Link key={link.id} to={`${link.path}`} className='mr-5 hover:text-gray-900' onClick={toggleMenu}>{link.name}</Link>
