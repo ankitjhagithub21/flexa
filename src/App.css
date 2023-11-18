@@ -73,7 +73,7 @@ p, a,h2,button{
     background-color: whitesmoke;
     top: 60px; /* Adjusted top position to account for header height */
     width: 100%;
-    height: 40%;
+    height: 50%;
     gap: 20px;
     transition: 0.5s;
     transform: translateY(-130%);
